@@ -12,13 +12,15 @@
 
 # GraphQL Client
 
+### [[[ An edited library from graphql flutter library version 3.0.2, contains fixes for websocket connections ]]]
+
 ## Installation
 
 First, depend on this package:
 
 ```yaml
 dependencies:
-  graphql: ^3.0.0
+  graphql: ^3.0.2
 ```
 
 And then import it inside your dart code:
