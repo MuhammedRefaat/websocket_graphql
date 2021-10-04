@@ -43,7 +43,7 @@ class MessageTypes {
   // server connections
   static const String GQL_CONNECTION_ACK = 'connection_ack';
   static const String GQL_CONNECTION_ERROR = 'connection_error';
-  static const String GQL_CONNECTION_KEEP_ALIVE = 'ping';
+  static const String GQL_CONNECTION_KEEP_ALIVE = 'pong';
 
   // client operations
   static const String GQL_START = 'subscribe';
