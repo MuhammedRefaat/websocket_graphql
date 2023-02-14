@@ -1,6 +1,10 @@
-name: graphql_flutter tests case
+name: Test
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   build:
@@ -12,5 +16,7 @@ jobs:
           channel: 'stable'
       - name: Install dependencies
         run: make dep
-      - name: Tests
+      - name: Tests (dart)
+        run: make ci_check_client
+      - name: Tests (flutter)
         run: make ci_check_flutter
